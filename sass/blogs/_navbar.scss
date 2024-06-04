@@ -1,0 +1,84 @@
+.navbar{
+    width: 100%;
+    height: 82px;
+    background: #fe2622;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &__logo{
+        width: 18%;
+        height: 100%;
+        flex: 1;
+       
+    }
+    &__logo img{
+        width: 50%;
+        height: 100%;
+        
+    }
+    &__icon{
+        width: 7%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__icon img {
+        width: 80%;
+        height: 60%;
+        color: white;
+    }
+    &__icon p{
+        font-size: 18px;
+        color: white;
+    }
+    &__input{
+        width: 40%;
+        height: 80%;
+        background: white;
+        border-radius: 13px;
+    }
+    &__input input{
+        width: 75%;
+        height: 100%;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        
+    }
+    &__input button{
+        width: 23%;
+        height: 80%;
+        border-radius:35px;
+        border: none;
+        outline: none;
+        background: #ccff66;
+        &:hover{
+            background: rebeccapurple;
+            border: 1px solid rebeccapurple;
+        }
+    }
+    &__buttons{
+        width: 20%;
+        height: 100%;
+        border: 1px solid;
+        display: flex;
+        gap: 11px;
+    }
+    &__shop{
+        width: 31%;
+        height: 100%;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__shop img{
+        width: 80%;
+        height: 69%;
+    }
+    &__shop p{
+        font-size: 17px;
+        color: white;
+    }
+}
